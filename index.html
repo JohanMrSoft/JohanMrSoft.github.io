@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Vida - Johan Felipe Blandón</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Mi Hoja de Vida</div>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#profile">Perfil</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><a href="#education">Educación</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#references">Referencias</a></li>
+        </ul>
+      </nav>
+
+  <header>
+    <div class="profile-image">
+        <img src="johan-foto.jpg" alt="Foto de Johan Felipe Blandón">
+      </div>
+    <h1>Johan Felipe Blandón Ibarra</h1>
+    <p>Software Analyst & System Technician</p>
+  </header>
+
+  <section id="profile" class="profile">
+    <h2>Perfil Personal</h2>
+    <p>Soy un joven competente, amigable y honesto, con mucha energía, enfocado en destacar por mis logros. Gran apoyo para el trabajo en equipo, con disposición para el aprendizaje permanente y buscando crecimiento profesional y personal.</p>
+    <p><strong>Herramientas:</strong> Office, Adobe Design</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <ul>
+      <li>📍 Av 36A # 45-149, Las Vegas, Bello, Antioquia</li>
+      <li>📧 johanfelipebi@gmail.com</li>
+      <li>📱 3023396820</li>
+    </ul>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Educación</h2>
+    <ul>
+      <li><strong>Tecnólogo en análisis y desarrollo de software</strong> - SENA (03/2023)</li>
+      <li><strong>Técnico en sistemas</strong> - Institución Universitaria Marco Fidel Suárez (03/2016 - 10/2018)</li>
+      <li><strong>Barista certificado</strong> - Starbucks (2022)</li>
+    </ul>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2>Experiencia Laboral</h2>
+
+    <div class="job">
+      <h3>Agente de servicio al cliente bilingüe</h3>
+      <p>Concentrix - Campaña de videojuegos (Oct 2023 - Actualidad)</p>
+      <ul>
+        <li>Registro y seguimiento de incidentes</li>
+        <li>Explicación de mecánicas de juego y asesoría estratégica</li>
+        <li>Gestión de compras, reembolsos y facturación</li>
+        <li>Atención multilingüe</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Barista</h3>
+      <p>Starbucks (Jul 2022 - Ago 2023)</p>
+      <ul>
+        <li>Preparación de bebidas</li>
+        <li>Atención al cliente</li>
+        <li>Registro en POS</li>
+        <li>Mantenimiento de equipos</li>
+        <li>Control de inventario</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Supervisor</h3>
+      <p>Procinal Cinemas (Dic 2021 - Jul 2022)</p>
+      <ul>
+        <li>Gestión de personal</li>
+        <li>Programación y control de funciones</li>
+        <li>Reportes de ventas e inventario</li>
+        <li>Capacitación de personal</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Agente de fidelización</h3>
+      <p>Teleperformance - JAZZTEL (Ago 2021 - Dic 2021)</p>
+      <ul>
+        <li>Venta de servicios de internet y móviles</li>
+        <li>Destacado en satisfacción del cliente</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Subgerente / Asistente de ventas</h3>
+      <p>Tiendas D1 (Nov 2019 - Ago 2021)</p>
+      <ul>
+        <li>Gestión de personal y programación</li>
+        <li>Reportes de productividad</li>
+        <li>Manejo de caja menor y mayor</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="references" class="references">
+    <h2>Referencias</h2>
+    <ul>
+      <li><strong>Carlos Burgos</strong> - Gerente de restaurante, ex supervisor en Starbucks - 📱 3218565540</li>
+      <li><strong>Fredy Alonso Ibarra</strong> - Diseñador gráfico y multimedia - 📱 3116476614</li>
+      <li><strong>Ruth Myriam Ibarra</strong> - Directora comercial La Lonja - 📱 3148093948</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© Johan Felipe Blandón Ibarra</p>
+  </footer>
+</body>
+
+<script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('show');
+    }
+  </script>
+
+</html>
